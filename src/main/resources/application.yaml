@@ -1,0 +1,14 @@
+spring:
+   datasource:
+      username: arboretum
+      password: arboretum
+      url: jdbc:mysql://localhost:3306/arboretum
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      
+   sql:
+      init:
+         mode: never
